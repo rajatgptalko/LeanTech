@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+  <listeners>
+    <listener class-name="Utlies.ExtentReport"/>
+    <!-- Add more listeners if needed -->
+  </listeners>
+  <test name="CustomerFlow">
+    <classes>
+      <class name="TestSuite.ExecutionSuite_Customer_Flow"/>
+    </classes>
+  </test>
+</suite>
